@@ -1,0 +1,95 @@
+.task -management {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .task-management .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-management h1 {
+    text-align: center;
+  }
+  
+  .task-management .filter {
+    margin-bottom: 20px;
+  }
+  
+  .task-management form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-management input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .task-management button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-management button:hover {
+    background-color: #218838;
+  }
+  
+  .task-management ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-management li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-management .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .col {
+      flex-basis: 100%;
+    }
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20 px;
+  }
+  
+  .pagination button {
+    margin: 0 10px;
+  }
